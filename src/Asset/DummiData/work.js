@@ -1,11 +1,11 @@
 import kolad from "../images/kolad.png";
 import koladI from "../images/koladI.png";
-// import healHub from "../images/";
-// import kolad from "../images/"
+import healHub from "../images/healHub.png";
+import intro from "../images/intro.png";
 import lagmall from "../images/lagmall.png";
 import lagmallI from "../images/lagmallI.png";
-// import learnxplore from "../images/learnxplore.png";
-// import learnxploreI from "../images/";
+import learnxplore from "../images/learnxplore.png";
+import learnxploreI from "../images/learnxploree.png";
 import tailor from "../images/tailor.png";
 
 export const work = [
@@ -18,8 +18,8 @@ export const work = [
   },
   {
     id: 2,
-    // mainImg: healHub,
-    // icon: ,
+    mainImg: healHub,
+    icon: intro,
     service: "Medical search app",
     view: "View Case Study",
   },
@@ -32,8 +32,8 @@ export const work = [
   },
   {
     id: 4,
-    // mainImg: learnxplore,
-    // icon: learnxploreI,
+    mainImg: learnxplore,
+    icon: learnxploreI,
     service: "An E-learning platform.",
     view: "View Clients Story",
   },
