@@ -1,7 +1,7 @@
 import kolad from "../images/kolad.png";
 import koladI from "../images/koladI.png";
 import healHub from "../images/healHub.png";
-import intro from "../images/intro.png";
+import healhubi from "../images/healhubi.png";
 import lagmall from "../images/lagmall.png";
 import lagmallI from "../images/lagmallI.png";
 import learnxplore from "../images/learnxplore.png";
@@ -19,7 +19,7 @@ export const work = [
   {
     id: 2,
     mainImg: healHub,
-    icon: intro,
+    icon: healhubi,
     service: "Medical search app",
     view: "View Case Study",
   },

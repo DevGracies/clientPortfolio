@@ -3,7 +3,7 @@ import b from "../../Asset/images/b.png";
 import { Link } from "react-router-dom";
 const Navigation = () => {
   return (
-    <div className=" px-16 py-4 bg-[#1E2028] items-center flex justify-between">
+    <div className=" px-16 top-0 w-full fixed py-4 bg-[#1E2028] items-center flex justify-between">
       <div>
         <img src={b} alt="" />
       </div>
