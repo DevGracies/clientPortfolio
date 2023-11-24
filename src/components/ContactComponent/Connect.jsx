@@ -9,7 +9,7 @@ const Connect = () => {
         I am always excited to explore new opportunites and collaborate on
         innovative projects.
       </h3>
-      <div>
+      <div className="flex justify-between">
         <div>
           <img src={blendiX} alt="" />
         </div>
