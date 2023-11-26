@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="xl:grid xl:grid-cols-2 ">
           <div className="m-5">
             <div className="flex items-center gap-3">
-              <h1 className=" rounded-full w-8 h-8 text-2xl text-center bg-[#FFFFFF1A]">
+              <h1 className=" rounded-full w-[36px] h-[36px] text-2xl text-center bg-[#FFFFFF1A]">
                 1
               </h1>
               <p className="text-[#FFFFFF1A]">I enjoy the process</p>
@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
           <div className="m-5">
             <div className="flex items-center gap-3">
-              <h1 className=" rounded-full w-8 h-8 text-2xl text-center bg-[#FFFFFF1A]">
+              <h1 className=" rounded-full w-[36px] h-[36px] text-2xl text-center bg-[#FFFFFF1A]">
                 2
               </h1>
               <p className=" text-[#FFFFFF1A]">
@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
           <div className="m-5">
             <div className="flex items-center gap-3">
-              <h1 className=" rounded-full w-8 h-8 text-2xl text-center bg-[#FFFFFF1A]">
+              <h1 className=" rounded-full w-[36px] h-[36px] text-2xl text-center bg-[#FFFFFF1A]">
                 3
               </h1>
               <p className=" text-[#FFFFFF1A]">
@@ -44,7 +44,7 @@ const Footer = () => {
           <div>
             <img src={b} alt="" />
           </div>
-          <div className="flex justify-between items-center gap-3">
+          <div className="flex justify-between items-center text-3xl gap-3">
             <FaTwitter />
             <FaBehanceSquare />
             <FaLinkedin />

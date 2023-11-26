@@ -2,24 +2,31 @@ import React from "react";
 import { FaTwitter, FaLinkedin, FaBehanceSquare } from "react-icons/fa";
 import welcomeB from "../../Asset/images/welcome.png";
 import grp from "../../Asset/images/grp.png";
-import frame from "../../Asset/images/frame.png";
 import str from "../../Asset/images/str.png";
 const Welcome = () => {
   return (
     <div>
-      <div className="flex justify-center">
+      <div className="flex justify-center items-center">
         <div>
           <h3 className="text-[#407BFF] h-14">Welcome Human</h3>
-          <div className="w-[500px]">
-            <img src={grp} alt="" className="absolute left-[560px] top-28" />
-            <h1 className=" text-5xl relative">
+          <div className="relative font-semibold z-10 w-[541px] h-[293px]">
+            <img
+              src={grp}
+              alt=""
+              className="absolute z-20 left-[390px] -top-20"
+            />
+            <h1 className=" text-5xl font-semibold">
               I'm <span className=" text-[#F5A623]">OLABANJI</span>, a Product
-              Designer from <span className="text-[#21D789]">N</span> G{" "}
-              <span className="text-[#21D789]">N.</span>
+              Designer from <span className="text-[#21D789]">N</span>G
+              <span className="text-[#21D789]">N</span>.
             </h1>
-            <img src={str} alt="" />
+            <img
+              src={str}
+              alt=""
+              className="left-[245px] top-[130px] z-20 absolute "
+            />
           </div>
-          <div className="flex justify-center gap-5">
+          <div className="flex w-[139px] h-[29px] absolute text-white gap-[26px] text-2xl">
             <FaTwitter />
             <FaBehanceSquare />
             <FaLinkedin />
@@ -28,9 +35,6 @@ const Welcome = () => {
         <div>
           <img src={welcomeB} alt="" />
         </div>
-      </div>
-      <div className="flex justify-center m-5">
-        <img src={frame} alt="" />
       </div>
     </div>
   );
