@@ -5,7 +5,7 @@ import Navigation from "../Navigation/Navigation";
 const Layout = ({ children }) => {
   return (
     <div>
-      <div className=" mb-20 ">
+      <div className=" mb-32 ">
         <Navigation />
       </div>
       {children}

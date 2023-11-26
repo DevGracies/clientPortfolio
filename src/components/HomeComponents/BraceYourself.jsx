@@ -12,7 +12,7 @@ const BraceYourself = () => {
             <div>
               <h1 className="font-bold text-3xl text-center">Brace yourself</h1>
             </div>
-            <div>
+            <div className="w-[400px] h-[369px]">
               <h5 className="w-44">
                 when I'm not pushing pixels or brainstorming new features,
                 you'll find me teaching product design and mentoring aspiring
