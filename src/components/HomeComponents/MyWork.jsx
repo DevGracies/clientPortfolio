@@ -12,12 +12,16 @@ const MyWork = () => {
             <div className="flex justify-center">
               <div key={work.id} className="flex m-5 justify-center w-[1300px]">
                 <div className="w-2/4 h-full rounded-xl bg-[#292929]">
-                  <img src={work.mainImg} alt="" />
+                  <img
+                    src={work.mainImg}
+                    alt=""
+                    className="h-full hover:shadow-lg transition-transfrom transform hover:scale-105 rounded-xl"
+                  />
                 </div>
                 <div className=" bg-[#292929] p-5 rounded-xl w-2/4 ml-3">
                   <div className=" h-[470px]">
                     <img src={work.icon} alt="" />
-                    <h4>{work.service}</h4>
+                    <h4 className="mt-5">{work.service}</h4>
                   </div>
                   <div className="flex justify-between items-center ">
                     <h5>{work.view} </h5>

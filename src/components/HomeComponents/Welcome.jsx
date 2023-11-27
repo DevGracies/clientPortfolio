@@ -3,6 +3,7 @@ import { FaTwitter, FaLinkedin, FaBehanceSquare } from "react-icons/fa";
 import welcomeB from "../../Asset/images/welcome.png";
 import grp from "../../Asset/images/grp.png";
 import str from "../../Asset/images/str.png";
+import style from "../../App.css";
 const Welcome = () => {
   return (
     <div>
@@ -32,7 +33,7 @@ const Welcome = () => {
             <FaLinkedin />
           </div>
         </div>
-        <div>
+        <div className={style.animate}>
           <img src={welcomeB} alt="" />
         </div>
       </div>
