@@ -12,16 +12,16 @@ const Connect = () => {
         </h3>
       </div>
       <div>
-        <div className="flex justify-center mt-8 gap-5 ">
-          <div>
+        <div className="xl:flex xl:justify-center mt-8 gap-5 ">
+          <div className="flex justify-center">
             <img src={blendiX} alt="" />
           </div>
-          <div className=" w-[698px] p-10 rounded-xl h-[562px] bg-[#FFFFFF0D]">
-            <h5 className=" text-xl w-[613px] h-[98px] top-[57px] left-12">
+          <div className=" xl:w-[698px] xl:p-10 p-5 m-5 rounded-xl xl:h-[562px] bg-[#FFFFFF0D]">
+            <h5 className=" text-xl xl:w-[613px] h-[98px] top-[57px] left-12">
               if you'd like to get in touch or discuss potential collaborations,
               please feel free to contact me.
             </h5>
-            <h3 className="w-[249px] h-[140px] text-xl">
+            <h3 className="xl:w-[249px] h-[140px] text-xl">
               Connect on{" "}
               <a href="http://" className="text-[#407BFF]">
                 linkedin
@@ -36,11 +36,11 @@ const Connect = () => {
                   <h6>4designspacce@gmail.com</h6>
                 </div>
               </div>
-              <div className="flex w-[467px] gap-5">
+              <div className="flex xl:w-[467px] gap-5">
                 <div>
                   <FaPhone className="text-[#FF715B]" />
                 </div>
-                <div className="flex justify-between gap-5">
+                <div className="xl:flex justify-between gap-5">
                   <h6>(+234)811 1883 671</h6>
                   <h6>(+234) 907 7489 627</h6>
                 </div>

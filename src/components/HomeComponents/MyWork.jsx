@@ -9,17 +9,20 @@ const MyWork = () => {
       <div>
         {work.map((work) => {
           return (
-            <div className="flex justify-center">
-              <div key={work.id} className="flex m-5 justify-center w-[1300px]">
-                <div className="w-2/4 h-full rounded-xl bg-[#292929]">
+            <div className="flex justify-center items-center ">
+              <div
+                key={work.id}
+                className="xl:flex m-5 xl:h-[500px] rounded-xl bg-[#292929] xl:bg-transparent justify-center items-center xl:w-[1300px] w-4/5"
+              >
+                <div className="xl:w-2/4 h-full  w-full rounded-xl bg-[#292929]">
                   <img
                     src={work.mainImg}
                     alt=""
-                    className="h-full hover:shadow-lg transition-transfrom transform hover:scale-105 rounded-xl"
+                    className="h-full hover:shadow-lg xl:transition-transfrom transform xl:hover:scale-105 rounded-xl"
                   />
                 </div>
-                <div className=" bg-[#292929] p-5 rounded-xl w-2/4 ml-3">
-                  <div className=" h-[470px]">
+                <div className=" bg-[#292929] w-full h-full p-5 rounded-xl xl:w-2/4 xl:ml-1">
+                  <div className=" xl:h-[400px]">
                     <img src={work.icon} alt="" />
                     <h4 className="mt-5">{work.service}</h4>
                   </div>

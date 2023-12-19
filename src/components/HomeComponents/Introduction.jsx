@@ -3,14 +3,14 @@ import intro from "../../Asset/images/intro.png";
 
 function Introduction() {
   return (
-    <div className=" justify-center flex">
+    <div className=" justify-center flex m-5">
       <div
-        className=" bg-cover  rounded-xl bg-opacity-50 bg-center h-[400px] w-[800px]  "
+        className=" bg-cover  rounded-xl bg-opacity-50 bg-center xl:h-[400px] xl:w-[800px]  "
         style={{ backgroundImage: `url(${intro})` }}
       >
-        <div className="p-6">
-          <h4 className=" text-yellow-600">Intro...</h4>
-          <p className=" text-white text-2xl ">
+        <div className="xl:p-6 p-3">
+          <h4 className=" text-yellow-600 font-semibold">Intro...</h4>
+          <p className=" text-white xl:text-2xl text-lg ">
             I am a creative thinker and problem solver who thrives in
             collaborative enviroments. My design journey began with a stong
             foundation in user-centered design principles, which i've

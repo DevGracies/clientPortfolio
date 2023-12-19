@@ -3,12 +3,12 @@ import { FaTwitter, FaLinkedin, FaBehanceSquare } from "react-icons/fa";
 import welcomeB from "../../Asset/images/welcome.png";
 import grp from "../../Asset/images/grp.png";
 import str from "../../Asset/images/str.png";
-import style from "../../App.css";
+import style from "./home.module.css";
 const Welcome = () => {
   return (
     <div>
       <div className="flex justify-center items-center">
-        <div>
+        <div className="hidden xl:block">
           <h3 className="text-[#407BFF] h-14">Welcome Human</h3>
           <div className="relative font-semibold z-10 w-[541px] h-[293px]">
             <img

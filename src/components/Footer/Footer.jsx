@@ -5,8 +5,11 @@ const Footer = () => {
   return (
     <div className="  justify-center flex items-center">
       <div className=" bg-[#ffffff0D] p-5 w-3/4 rounded-xl m-5">
-        <h1 className=" text-center lg:text-4xl md:text-3xl sm:text-2xl">
-          Designer for 3+ years, I've loved every minute of it.
+        <h1
+          className=" text-center 
+         lg:text-4xl md:text-3xl sm:text-2xl"
+        >
+          Designer for 3+ years, I've <br /> loved every minute of it.
         </h1>
         <div className="xl:grid xl:grid-cols-2 ">
           <div className="m-5">
